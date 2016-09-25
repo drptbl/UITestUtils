@@ -62,11 +62,11 @@ class ExampleAppUITests: XCTestCase {
         saveScreenshot("\(realHomeDirectory)/Temp/Screenshots/\(deviceType)_\(screenResolution)_screenshot1.png")
         waitForDuration(2)
 
-        orientation = .LandscapeLeft
+        orientation = .landscapeLeft
         waitForDuration(2)
 
         print("Current orientation (as Int): \(orientation.rawValue)")
-        orientation = .Portrait
+        orientation = .portrait
         waitForDuration(2)
 
         let textField = app.textFields["Enter text"]
@@ -77,8 +77,7 @@ class ExampleAppUITests: XCTestCase {
         app.buttons["Alert"].tap()
         waitForDuration(2)
         
-        app.sheets["Message"].collectionViews
-            .buttons["Ok"].tap()
+        app.sheets["Message"].buttons["Ok"].tap()
         waitForDuration(2)
 
         tabBar.buttons["First"].tap()

@@ -7,17 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE6DA5371C245F0100D40DC5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE6DA5351C245EDF00D40DC5 /* LICENSE */; };
-		CE6DA56E1C2463FE00D40DC5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5641C2463FE00D40DC5 /* Const.swift */; };
-		CE6DA56F1C2463FE00D40DC5 /* HttpHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5651C2463FE00D40DC5 /* HttpHandlers.swift */; };
-		CE6DA5701C2463FE00D40DC5 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5661C2463FE00D40DC5 /* HttpParser.swift */; };
-		CE6DA5711C2463FE00D40DC5 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5671C2463FE00D40DC5 /* HttpRequest.swift */; };
-		CE6DA5721C2463FE00D40DC5 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5681C2463FE00D40DC5 /* HttpResponse.swift */; };
-		CE6DA5731C2463FE00D40DC5 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA5691C2463FE00D40DC5 /* HttpRouter.swift */; };
-		CE6DA5741C2463FE00D40DC5 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA56A1C2463FE00D40DC5 /* HttpServer.swift */; };
-		CE6DA5751C2463FE00D40DC5 /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA56B1C2463FE00D40DC5 /* HttpServerIO.swift */; };
-		CE6DA5761C2463FE00D40DC5 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA56C1C2463FE00D40DC5 /* Socket.swift */; };
-		CE6DA5771C2463FE00D40DC5 /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DA56D1C2463FE00D40DC5 /* String+Misc.swift */; };
+		CE7E22CF1D97E66C00E959B2 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7E22C61D97E57B00E959B2 /* Swifter.framework */; };
 		CE8C6E991B47DB0A007CF215 /* UITestServer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C6E981B47DB0A007CF215 /* UITestServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE8C6EA01B47DB0A007CF215 /* UITestServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8C6E951B47DB0A007CF215 /* UITestServer.framework */; };
 		CE8C6EA51B47DB0A007CF215 /* UITestServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C6EA41B47DB0A007CF215 /* UITestServerTests.swift */; };
@@ -27,6 +17,69 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE7E22BF1D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C839B6E19422CFF003A6950;
+			remoteInfo = SwifterSampleiOS;
+		};
+		CE7E22C11D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD1B651C8F7CEC0016D664;
+			remoteInfo = SwifterSampletvOS;
+		};
+		CE7E22C31D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CA4813B19A2EA8D0030B30D;
+			remoteInfo = SwifterSampleOSX;
+		};
+		CE7E22C51D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893E71C05127900A29F63;
+			remoteInfo = SwifteriOS;
+		};
+		CE7E22C71D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AE893FB1C0512C400A29F63;
+			remoteInfo = SwifterMac;
+		};
+		CE7E22C91D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD1BC41C8F84E60016D664;
+			remoteInfo = SwiftertvOS;
+		};
+		CE7E22CB1D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD875C1C66099B0068099B;
+			remoteInfo = SwifteriOSTests;
+		};
+		CE7E22CD1D97E57B00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7CCD87791C660EA30068099B;
+			remoteInfo = SwifterOSXTests;
+		};
+		CE7E22D01D97E68F00E959B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE893E61C05127900A29F63;
+			remoteInfo = SwifteriOS;
+		};
 		CE8C6EA11B47DB0A007CF215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE8C6E8C1B47DB0A007CF215 /* Project object */;
@@ -37,17 +90,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE6DA5351C245EDF00D40DC5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CE6DA5641C2463FE00D40DC5 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = Sources/Swifter/Const.swift; sourceTree = "<group>"; };
-		CE6DA5651C2463FE00D40DC5 /* HttpHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpHandlers.swift; path = Sources/Swifter/HttpHandlers.swift; sourceTree = "<group>"; };
-		CE6DA5661C2463FE00D40DC5 /* HttpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpParser.swift; path = Sources/Swifter/HttpParser.swift; sourceTree = "<group>"; };
-		CE6DA5671C2463FE00D40DC5 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = Sources/Swifter/HttpRequest.swift; sourceTree = "<group>"; };
-		CE6DA5681C2463FE00D40DC5 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = Sources/Swifter/HttpResponse.swift; sourceTree = "<group>"; };
-		CE6DA5691C2463FE00D40DC5 /* HttpRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRouter.swift; path = Sources/Swifter/HttpRouter.swift; sourceTree = "<group>"; };
-		CE6DA56A1C2463FE00D40DC5 /* HttpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpServer.swift; path = Sources/Swifter/HttpServer.swift; sourceTree = "<group>"; };
-		CE6DA56B1C2463FE00D40DC5 /* HttpServerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpServerIO.swift; path = Sources/Swifter/HttpServerIO.swift; sourceTree = "<group>"; };
-		CE6DA56C1C2463FE00D40DC5 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Swifter/Socket.swift; sourceTree = "<group>"; };
-		CE6DA56D1C2463FE00D40DC5 /* String+Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Misc.swift"; path = "Sources/Swifter/String+Misc.swift"; sourceTree = "<group>"; };
+		CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = XCode/Swifter.xcodeproj; sourceTree = "<group>"; };
 		CE8C6E951B47DB0A007CF215 /* UITestServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITestServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8C6E981B47DB0A007CF215 /* UITestServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestServer.h; sourceTree = "<group>"; };
 		CE8C6E9A1B47DB0A007CF215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7E22CF1D97E66C00E959B2 /* Swifter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE7E22B51D97E57B00E959B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E22C01D97E57B00E959B2 /* SwifterSampleiOS.app */,
+				CE7E22C21D97E57B00E959B2 /* SwifterSampletvOS.app */,
+				CE7E22C41D97E57B00E959B2 /* SwifterSampleOSX */,
+				CE7E22C61D97E57B00E959B2 /* Swifter.framework */,
+				CE7E22C81D97E57B00E959B2 /* Swifter.framework */,
+				CE7E22CA1D97E57B00E959B2 /* SwiftertvOS.framework */,
+				CE7E22CC1D97E57B00E959B2 /* SwifteriOSTests.xctest */,
+				CE7E22CE1D97E57B00E959B2 /* SwifterOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CE8C6E8B1B47DB0A007CF215 = {
 			isa = PBXGroup;
 			children = (
@@ -129,17 +188,7 @@
 		CE8C6EB01B47DB87007CF215 /* swifter */ = {
 			isa = PBXGroup;
 			children = (
-				CE6DA5641C2463FE00D40DC5 /* Const.swift */,
-				CE6DA5651C2463FE00D40DC5 /* HttpHandlers.swift */,
-				CE6DA5661C2463FE00D40DC5 /* HttpParser.swift */,
-				CE6DA5671C2463FE00D40DC5 /* HttpRequest.swift */,
-				CE6DA5681C2463FE00D40DC5 /* HttpResponse.swift */,
-				CE6DA5691C2463FE00D40DC5 /* HttpRouter.swift */,
-				CE6DA56A1C2463FE00D40DC5 /* HttpServer.swift */,
-				CE6DA56B1C2463FE00D40DC5 /* HttpServerIO.swift */,
-				CE6DA56C1C2463FE00D40DC5 /* Socket.swift */,
-				CE6DA56D1C2463FE00D40DC5 /* String+Misc.swift */,
-				CE6DA5351C245EDF00D40DC5 /* LICENSE */,
+				CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */,
 			);
 			path = swifter;
 			sourceTree = "<group>";
@@ -171,6 +220,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CE7E22D11D97E68F00E959B2 /* PBXTargetDependency */,
 			);
 			name = UITestServer;
 			productName = UITestServer;
@@ -202,11 +252,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Zabiyaka;
 				TargetAttributes = {
 					CE8C6E941B47DB0A007CF215 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					CE8C6E9E1B47DB0A007CF215 = {
 						CreatedOnToolsVersion = 7.0;
@@ -224,6 +275,12 @@
 			mainGroup = CE8C6E8B1B47DB0A007CF215;
 			productRefGroup = CE8C6E961B47DB0A007CF215 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE7E22B51D97E57B00E959B2 /* Products */;
+					ProjectRef = CE7E22B41D97E57B00E959B2 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CE8C6E941B47DB0A007CF215 /* UITestServer */,
@@ -232,12 +289,70 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CE7E22C01D97E57B00E959B2 /* SwifterSampleiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterSampleiOS.app;
+			remoteRef = CE7E22BF1D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22C21D97E57B00E959B2 /* SwifterSampletvOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterSampletvOS.app;
+			remoteRef = CE7E22C11D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22C41D97E57B00E959B2 /* SwifterSampleOSX */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SwifterSampleOSX;
+			remoteRef = CE7E22C31D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22C61D97E57B00E959B2 /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = CE7E22C51D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22C81D97E57B00E959B2 /* Swifter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swifter.framework;
+			remoteRef = CE7E22C71D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22CA1D97E57B00E959B2 /* SwiftertvOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftertvOS.framework;
+			remoteRef = CE7E22C91D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22CC1D97E57B00E959B2 /* SwifteriOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifteriOSTests.xctest;
+			remoteRef = CE7E22CB1D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE7E22CE1D97E57B00E959B2 /* SwifterOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterOSXTests.xctest;
+			remoteRef = CE7E22CD1D97E57B00E959B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CE8C6E931B47DB0A007CF215 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6DA5371C245F0100D40DC5 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,16 +372,6 @@
 			files = (
 				CE98A3501B495C71002C6627 /* UITestServer.swift in Sources */,
 				CE98A3561B496A23002C6627 /* PrivateUtils.m in Sources */,
-				CE6DA56F1C2463FE00D40DC5 /* HttpHandlers.swift in Sources */,
-				CE6DA5701C2463FE00D40DC5 /* HttpParser.swift in Sources */,
-				CE6DA5731C2463FE00D40DC5 /* HttpRouter.swift in Sources */,
-				CE6DA5741C2463FE00D40DC5 /* HttpServer.swift in Sources */,
-				CE6DA5761C2463FE00D40DC5 /* Socket.swift in Sources */,
-				CE6DA5751C2463FE00D40DC5 /* HttpServerIO.swift in Sources */,
-				CE6DA56E1C2463FE00D40DC5 /* Const.swift in Sources */,
-				CE6DA5721C2463FE00D40DC5 /* HttpResponse.swift in Sources */,
-				CE6DA5771C2463FE00D40DC5 /* String+Misc.swift in Sources */,
-				CE6DA5711C2463FE00D40DC5 /* HttpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +386,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE7E22D11D97E68F00E959B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = CE7E22D01D97E68F00E959B2 /* PBXContainerItemProxy */;
+		};
 		CE8C6EA21B47DB0A007CF215 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE8C6E941B47DB0A007CF215 /* UITestServer */;
@@ -302,8 +412,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -350,8 +462,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -371,6 +485,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -382,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -394,6 +510,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -401,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -412,6 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
